@@ -77,6 +77,7 @@ write_boot; # use flash_boot to skip ramdisk repack, e.g. for devices with init_
 
 # init_boot install
 #dump_boot; # unpack ramdisk since it is the new first stage init ramdisk where overlay.d must go
+patch_cmdline printk.devkmsg printk.devkmsg=off
 
 #write_boot;
 ## end init_boot install
