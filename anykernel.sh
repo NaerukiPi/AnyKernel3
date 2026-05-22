@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=SunnyGo-Revived
+kernel.string=Naeruki-Kernel
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -15,7 +15,7 @@ device.name2=bhima
 device.name3=
 device.name4=
 device.name5=
-supported.versions=11 - 13
+supported.versions=11 - 16
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
